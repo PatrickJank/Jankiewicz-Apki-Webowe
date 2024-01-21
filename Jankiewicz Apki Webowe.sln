@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{335C8086-DDB3-4EE1-B626-18BEE03B7476}"
+	ProjectSection(SolutionItems) = preProject
+		CarModule.js = CarModule.js
+		index.html = index.html
+		Main.js = Main.js
+		server.js = server.js
+		VehicleModule.js = VehicleModule.js
+		zadania_z_dekompozycji.js = zadania_z_dekompozycji.js
+		zadania_z_funkcji.js = zadania_z_funkcji.js
+		zadania_z_obiektow.js = zadania_z_obiektow.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {196DA508-4D64-4E34-80A8-11E0BA6C9378}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <!-- Importowanie plików do zadan 1 i 2 -->
+
+    <script src="zadania_z_funkcji.js"></script>
+    <script src="zadania_z_dekompozycji.js"></script>
+    <script src="zadania_z_obiektow.js"></script>
+
+    <!-- Importowanie plików modułów -->
+
+    <script type="module" src="VehicleModule.js"></script>
+    <script type="module" src="CarModule.js"></script>
+
+    <!-- Importowanie pliku głównego -->
+
+    <script type="module" src="Main.js"></script>
+
+    <script>
+        // Testowanie fetch API
+        fetch('http://localhost:3000/api/users')
+            .then(response => response.json())
+            .then(data => console.log('Fetch API:', data))
+            .catch(error => console.error('Fetch API Error:', error));
+
+        // Testowanie Axios
+        axios.get('http://localhost:3000/api/users')
+            .then(response => console.log('Axios:', response.data))
+            .catch(error => console.error('Axios Error:', error));
+    </script>
+
+</body>
+</html>
